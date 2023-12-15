@@ -1,0 +1,60 @@
+
+
+.p {
+    color: red;
+}
+
+
+/* .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+height: 100vh
+
+
+} */
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-self:  */
+}
+
+.main-cont {
+
+background-color: #2aaae0;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+.inner-cont {
+    background-color: white;
+    min-height: 400px;
+    min-width: 400px;
+    border-radius: 120px;
+    height: 50vh;
+    width: 100%;
+    border: solid black 1px;
+}
+
+.footer {
+    /* align-content: center; */
+    /* border: black solid 2px; */
+    width: 100%;
+    /* margin-top: 5% */
+    /* position: absolute; */
+    /* bottom: 50px; */
+    /* text-align: right; */
+}
+
+.author {
+text-align: end;
+
+}

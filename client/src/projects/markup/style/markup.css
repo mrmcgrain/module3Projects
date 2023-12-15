@@ -1,0 +1,40 @@
+
+
+.flex-col {
+    display: flex;
+    flex-direction: column
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.markup-container {
+    margin: 100px;
+    text-align: start;
+}
+
+#Markup {
+    background-color: white;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.markup-margin {
+    margin: 300px;
+}
+
+.pos-rel {
+    position: relative;
+    right: 200px
+}

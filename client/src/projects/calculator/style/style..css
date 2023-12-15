@@ -1,0 +1,302 @@
+.row {
+    /* flex: 2; */
+    /* max-width: 200px; */
+    width: 100%,
+
+}
+.input {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: black; */
+}
+
+.card {
+    display: flex;
+    /* flex: 1, */
+}
+
+.btn {
+    width: 15vw;
+    height: 15vh;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+
+    /* height: auto; */
+    
+
+
+    /* background-color: rgb(97, 97, 72) */
+
+}
+
+.border {
+    border: 2px solid black; 
+    /* margin-top: 20px; */
+         /* background-color: black; */
+
+}
+
+.MainContainer{
+    /* background-color: black; */
+    /* width: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: black; */
+}
+
+.container{
+    width:auto;
+    background-color: black;
+
+}
+
+.grid {
+    display: grid;
+    /* display: flex; */
+    grid-template-areas: 
+    "display display display display"
+    "ac ac divide multiply"
+    "seven eight nine subtract"
+    "four five six add"
+    "one two three equals"
+    "zero zero decimal equals"
+;
+    /* grid-gap: 1px; */
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+
+        /* background-color: black; */
+
+}
+
+.display {
+    grid-area: display;
+    /* border: solid black 1px; */
+    background-color: black;
+    color:white;
+    text-align: end;
+}
+#display {
+    grid-area: display;
+
+}
+
+.output {
+    color: yellow;
+    font-family: monospace;
+
+}
+
+.result {
+    font-family: monospace;
+    font-weight: 300;
+}
+
+.clear {
+    background-color: red;
+    color:white;
+    width:100%;
+}
+#clear {
+    grid-area: ac;
+  
+}
+
+.one {
+    background-color: darkslategray;
+}
+#one {
+    grid-area: one;
+}
+.two {
+    background-color: darkslategray;
+}
+#two {
+    grid-area: two;
+}
+
+.three {
+    background-color: darkslategray;
+
+}
+
+#three {
+    grid-area: three;
+
+}
+
+.four {
+    background-color: darkslategray;
+
+    grid-area: four;
+}
+#four {
+    background-color: darkslategray;
+
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+    background-color: darkslategray;
+
+}
+#five {
+    grid-area: five;
+    background-color: darkslategray;
+
+}
+
+.six {
+    grid-area: six;
+    background-color: darkslategray;
+
+}
+
+#six {
+    grid-area: six;
+    background-color: darkslategray;
+
+}
+.seven {
+    grid-area: seven;
+    background-color: darkslategray;
+
+}
+#seven {
+    grid-area: seven;
+    background-color: darkslategray;
+
+}
+
+.eight {
+    grid-area: eight;
+    background-color: darkslategray;
+
+}
+#eight {
+    grid-area: eight;
+    background-color: darkslategray;
+
+}
+
+.nine {
+    grid-area: nine;
+    background-color: darkslategray;
+
+}
+
+#nine {
+    grid-area: nine;
+    background-color: darkslategray;
+
+}
+
+.subtract {
+    grid-area: subtract;
+    background-color: gray;
+
+}
+
+#subtract {
+    grid-area: subtract;
+    background-color: gray;
+
+}
+
+.multiply {
+    grid-area: multiply;
+    background-color: gray;
+
+}
+#multiply {
+    grid-area: multiply;
+    background-color: gray;
+
+}
+
+.equals {
+    grid-area: equals;
+    background-color: gray;
+    height: 100%;
+}
+#equals {
+    grid-area: equals;
+    background-color: gray;
+    height: 100%;
+}
+
+
+.equals button{
+    height: 100%;
+    background-color: rgb(190, 181, 181);
+}
+
+.decimal {
+    grid-area: decimal;
+    background-color: steelblue;
+    /* height: 100%; */
+
+}
+#decimal {
+    grid-area: decimal;
+    background-color: steelblue;
+    /* height: 100%; */
+
+}
+
+.divide {
+    grid-area: divide;
+    background-color: gray;
+}
+#divide {
+    grid-area: divide;
+    background-color: gray;
+}
+
+.add {
+    grid-area: add;
+    background-color: gray;
+
+}
+#add {
+    grid-area: add;
+
+}
+
+
+#zero {
+    grid-area: zero;
+}
+
+
+.zero {
+    background-color: darkslategray;
+    width:100%;
+
+}
+
+
+/* #output {
+color:white;
+
+} */
+
+.outputs {
+color:white;
+
+}
+.output2 {
+color:white;
+
+}

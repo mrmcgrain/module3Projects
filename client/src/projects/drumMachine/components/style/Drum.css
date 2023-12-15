@@ -1,0 +1,155 @@
+
+
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rebeccapurple;
+
+
+}
+
+.drum-border {
+    border: solid black 2px;
+}
+
+.drum-col {
+    display: flex;
+    flex-direction: row;;
+    justify-content: center;
+    align-items: center;
+    border: solid red 1px;
+}
+.drum-col-60 {
+    width: 60%;
+}
+.drum-col-40 {
+    width: 40%;
+}
+
+.drum-grid {
+    border: solid red 1px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+  grid-gap: 10px;
+  background-color: black;
+  padding: 10%;
+  border: solid red 1px;
+}
+
+.drum-pad {
+    border: white solid 1px;
+    width: 100%;
+    height: 120px;
+}
+
+.drum-grid-right {
+    display: grid;
+    grid-template-rows: 90px 90px 90px 90px;
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.drum-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drum-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .drum-switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .drum-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .drum-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .drum-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .drum-slider.round {
+    border-radius: 34px;
+  }
+  
+  .drum-slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+
+  
+  .Dslider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 70%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.Dslider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.Dslider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.Dslider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
